@@ -1,0 +1,774 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	margin-left:3%;
+	background-color:#FFFFFF;
+	overflow-x: hidden;
+	
+}
+
+
+#contenedor {
+	position:relative;
+	width:1000px;
+   
+	/*margin:0 auto;*/
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	background-color:#FFF;
+}
+
+#cabecera_sup {
+	width:1000px;
+	height:30px;
+padding-top: 10px;
+	
+	/*border:1px solid #F30;*/
+	background-image:url(../img/fondo1.png);
+	
+	}
+	
+#quejas_csic
+{
+	width:170px;
+	float:right;
+		text-align:center;
+	
+	}
+	
+#quejas_tnt
+{
+	width:170px;
+	float:right;
+	text-align:center;
+	
+	}
+	
+#idiomas {
+width:1000px;
+height:25px;
+margin-top:15px;
+text-align: right;
+
+}	
+
+
+#biblioteca {
+width:1000px;
+height:55px;	
+text-align: left;
+margin-left: 15px;
+
+
+}	
+	
+#caja_busqueda {
+width:1000px;
+height:55px;	
+/*border: 1px solid #CCC;*/
+margin-top:-55px;
+/*float:right*/
+}
+
+#menu_sup {
+width:1000px;
+height:35px;
+background-color: #FAF7F7;
+margin:0 auto;
+padding-top:15px;
+margin-top:8px;
+	
+}
+
+
+#caja_imagenes {
+width:1000px;
+border: 1px solid #CCC;
+margin-top:10px;
+float:left;
+
+	
+}	
+
+#caja_imagenes_izq {
+width:750px;
+height:250px;	
+border: 1px solid #CCC;
+margin-top:25px;
+margin-left:10px;
+float:left;
+
+}	
+
+#imagen_izq {
+width:240px;
+height:240px;
+margin-left:10px;
+margin-top:10px;
+float:left;
+/*border:1px solid #999;*/
+
+	}
+	
+#imagen_izq img{margin-left:20px;}	
+	
+#imagen_der {
+width:485px;
+height:240px;
+
+margin-top:10px;
+	float:left;
+	}	
+	
+	
+#actualidad
+
+{	width: 230px;
+	height:248px;
+	border:1px solid #CCC;
+	float:right;
+margin-top: 25px;
+margin-right:5px;
+box-shadow: 2px 2px 2px #ccc;
+	}
+	
+#texto_actualidad
+{/*background-image:url(../img/actualidad.png);
+height:31px;
+width:215px;
+margin-top:-15px;*/}
+
+#texto_actualidad_en
+{background-image:url(img/actualidad_en.html);
+height:31px;
+width:215px;
+margin-top:-15px;}
+
+
+
+#redes {
+width:1000px;
+height:35px;
+float:left;
+margin-top:30px;
+/*border:1px solid #000;*/
+/*padding-top: 5px;*/
+background-color:#F5F5F5;
+/*border:1px solid #000;*/
+}	
+
+#redes_uno{
+width:280px;
+height:50px;
+margin-right:150px;
+/*border:1px solid #000;*/
+margin-left:20px;
+margin-top:-30px;
+float:left;
+}
+
+#redes_dos{
+width:500px;
+height:45px;
+/*border:1px solid #d50306;*/
+margin-left:280px;
+/*margin-top:-360x;*/
+background-color:#F5F5F5;
+
+}
+
+#redes_dos_centro{
+width:200px;
+height:30px;
+/*border:1px solid #d50306;*/
+margin-left:290px;
+margin-top:-50x;
+background-color:#F5F5F5;
+
+}
+
+
+#redes_dos img{margin-top: -10px;}
+
+
+
+#redes_tres{
+width:220px;
+height:40px;
+/*border:1px solid #000;*/
+margin-left:780px;
+/*background-color:#F5F5F5;*/
+/*position:absolute;*/
+/*float:left;*/
+margin-top: -48px;
+
+}
+
+#redes_tres img{margin-top: 10px;}
+
+
+#caja_destacados {
+width:990px;
+/*margin-top:5px;*/
+margin-left:0px;
+float:left;
+}	
+
+
+#destacado_izq {
+width:350px;
+margin-top:10px;
+float:left;
+
+	}
+#destacado_izq_uno{
+width:190px;
+
+margin-left:5px;
+float:left;	
+
+	
+	}	
+	
+#destacado_izq_dos{
+width:150px;
+float:right;	
+padding-left: 3px;
+border-left: 1px solid #000;
+	
+	}		
+	
+#destacado_centro {
+	width:350px;
+	margin-left: 8px;
+	margin-top:10px;
+	float:left;
+	font-size:0,8em;
+
+}	
+
+
+#destacado_centro_uno{
+width:160px;
+
+margin-left:5px;
+float:left;	
+
+	
+	}	
+	
+#destacado_centro_dos{
+width:180px;
+float:right;	
+padding-left: 3px;
+border-left: 1px solid #000;
+	
+	}	
+	
+#destacado_drcha
+
+{
+	width: 240px;
+   margin-left: 3px;
+	margin-top:10px;
+	float:right;
+	}	
+	
+#caja_productos {
+width:1000px;
+margin-top:5px;
+float:left;
+background-color:#EEE;
+
+}	
+
+#producto_uno
+{
+width: 150px;
+height:100px;
+border: 1px solid #900;
+float:left;
+margin-left:40px;
+margin-top:8px;
+margin-bottom:8px;
+text-align:center;
+}
+
+#producto_dos
+{
+width: 150px;
+height:100px;
+border: 1px solid #900;
+float:left;
+margin-left:40px;
+margin-top:8px;
+margin-bottom:8px;
+}
+#producto_tres
+{
+width: 150px;
+height:100px;
+border: 1px solid #900;
+float:left;	
+margin-left:40px;
+margin-top:8px;
+margin-bottom:8px;
+	
+}
+#producto_cuatro
+{
+width: 150px;
+height:100px;
+border: 1px solid #900;
+float:left;	
+margin-left:40px;
+margin-top:8px;
+margin-bottom:8px;
+text-align:center;
+}
+#producto_cinco
+{
+width: 150px;
+height:100px;
+border: 1px solid #900;
+float:left;	
+margin-left:40px;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+#caja_mapa{
+width:1000px;
+margin-top:5px;
+float:left;
+background-color:#F8F8F8;	
+}
+
+#caja_mapa_uno{
+width:155px;
+
+margin-left:5px;
+float:left;
+
+}
+
+#caja_mapa_dos{
+width:190px;
+margin-left:85px;
+float:left;
+
+}
+
+#caja_mapa_cinco{
+width:150px;
+margin-left:80px;
+float:left;
+}
+
+#caja_mapa_seis{
+width:155px;
+margin-left:120px;
+float:left;
+
+}
+
+#caja_pie{
+width:1000px;
+margin-top:5px;
+float:left;
+background-color:#F8F8F8;	
+
+}
+
+
+#caja_pie_uno {
+	width:350px;
+	margin-left:10px;
+	float:left;
+	
+	}
+	
+#caja_pie_dos {
+	width:715px;
+	margin-left:176px;
+	float:left;
+
+	}	
+	
+#caja_pie_tres {
+    margin-top: 13px;
+    margin-bottom: 25px;
+    float:right;
+}		
+
+#lateral {
+margin-top: 40x;
+margin-left:237px;
+float:left;	
+width:836px;
+height:380px;
+background-image:url(../img/lateral.png);
+background-repeat:no-repeat;
+
+}
+
+
+
+
+/********************textos**************************/
+
+#cabecera_sup .lista {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	color: #666666;
+	margin-left:15px;
+	}
+	
+#cabecera_sup a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	color: #333;
+	margin-left:15px;
+	text-decoration:none;
+	}
+	
+	
+	
+#cabecera_sup a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	color: #900;
+	margin-left:15px;
+	text-decoration:none;	
+	}
+	
+	
+#actualidad .noticias {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.83em;
+	color: #000;
+	margin-left:2px;
+		margin-right:5px;
+		line-height:30px;
+	border-bottom: 1px solid #900;
+	}		
+
+#actualidad .noticias a {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+	color: #000;
+	margin-left:2px;
+		margin-right:5px;
+		line-height:30px;
+	text-decoration:none;
+	}		
+	
+	
+#actualidad .noticias a:hover {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+	color: #900;
+	margin-left:2px;
+		margin-right:5px;
+		line-height:30px;
+		text-decoration:none;
+	}		
+		
+
+	
+	#actualidad .ver_mas a {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	color: #000;
+		font-weight:bold;
+	margin-left:2px;
+		margin-right:5px;
+		line-height:30px;
+	text-decoration:none;
+	}		
+	
+	
+#actualidad .ver_mas a:hover {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	color: #900;
+	font-weight:bold;
+	margin-left:2px;
+		margin-right:5px;
+		line-height:30px;
+		text-decoration:none;
+	}		
+		
+	
+	
+#quejas_csic a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.75em;
+	color: #fff;
+	text-decoration:none;	
+	}	
+	
+#quejas_csic a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.75em;
+	color: #ccc;
+	text-decoration:none;
+	
+	}		
+	
+#biblioteca a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:2em;
+	color:#00008D;
+	text-decoration:none;
+
+}	
+
+#caja_pie .texto{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.80em;
+    color: #000000;
+	}
+
+#caja_mapa .titulo {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.80em;
+	color: #00008D;
+	font-weight:bold;
+	border-bottom:2px dotted #666;
+	}
+	
+#caja_mapa a {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	color: #000;
+	text-decoration:none;
+	line-height:25px;
+	margin-left:5px;
+		}
+
+#caja_mapa a:hover {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	color: #900;
+	text-decoration:none;
+		line-height:25px;
+			margin-left:5px;
+		}
+
+
+
+#caja_destacados .titulo {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:1.1em;
+	color: #000;
+	margin-left:10px;
+	border-bottom:1px solid #000;
+	}
+	
+	
+
+#destacado_izq_dos .cabecera {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+	color: #666;
+	font-weight:bold;
+	
+	}
+#destacado_izq_dos p {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.80em;
+	color: #000;
+
+		}
+
+
+
+#destacado_izq_dos a {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	color: #000;
+	text-decoration:none;
+		}
+
+#destacado_izq_dos a:hover {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:1em;
+	color: #900;
+	text-decoration:none;
+
+}
+
+
+#destacado_izq_dos ul
+{
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	text-decoration:none;
+margin-left:-15px;
+line-height:18px;
+	
+	}
+	
+#destacado_izq_uno .subcabecera {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.80em;
+	color: #000;
+	font-weight:bold;
+	margin-left:15px;
+	
+	
+	}			
+	
+
+#destacado_izq_dos .a {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+	color: #000;
+	font-weight:bold;
+	margin-left:10px;
+	
+	}			
+	
+	
+	
+	
+#destacado_centro_dos .cabecera {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+	color: #666;
+	font-weight:bold;
+	
+	}		
+
+#destacado_centro_uno  {
+font: 0.625em arial,helvetica,georgia,sans-serif;
+
+ color: #333333;
+
+
+		}
+
+#idiomas a {
+font-family:Verdana, Geneva, sans-serif;
+font-size:0.8em;
+color:#000;
+text-decoration:none;
+	}
+	
+#idiomas a:hover {
+color: #900;
+text-decoration:none;
+	}	
+
+
+#imagen_izq .titulo {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:1.1em;
+	color: #666;
+	margin-left:10px;
+	}
+	
+#imagen_izq a{
+	
+
+text-decoration:none;
+
+}		
+
+#menu_sup a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+	color: #000;
+	
+	text-decoration:none;
+	margin-left: 15px;
+
+	}
+#menu_sup a:hover {
+color: #900;
+text-decoration:none;	
+}	
+
+#quejas_tnt a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+	color: #900;
+
+	text-decoration:none;	
+	}	
+	
+#quejas_tnt a:hover {
+	color: #666;
+	text-decoration:none;
+	
+	}		
+	
+#redes p {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.80em;
+	color: #000;
+	font-weight:bold;
+	margin-top:3px;
+	margin-left:25px;
+
+		}	
+		
+#redes_dos p {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.80em;
+	color: #000;
+	font-weight:bold;	
+	padding-top:10px;
+	margin-left:-170px;
+	display:inline-block;
+	
+	
+	
+
+
+		}			
+		
+	#redes_tres .sitios {
+font-family:Verdana, Geneva, sans-serif;
+	font-size:0.70em;
+	color: #000;
+	font-weight:bold;		
+	}
+/**************	formulario busqueda*********************/
+
+#caja_busqueda .caja{
+	background-color: #F7F7F7;
+	border:1px solid #666;
+	margin-left:750px;
+	margin-top:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	}
+
+#caja_busqueda .imagen { vertical-align:middle;}
+
+#caja_busqueda .texto {
+font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+	font-size:0.8em;
+}	
+
+/*****************************imágenes************************/
+img {border:0px;}
+#caja_all{
+    margin-left: 30px;
+    
+}
+
+#aclaracion {
+    color: #FF0000;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 0.85em;
+    margin-left: 15px;
+    text-decoration: none;
+}
+ p {line-height: 105%;}

@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+background: #fff url(http://biblioteca.cchs.csic.es/img/bg1.jpg) repeat-x top;
+font-family: "Trebuchet MS" Verdana, Arial, sans-serif;
+font-size: 12px;
+color: #333333;
+line-height: 24px;
+}
+
+a {
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+width: 800px;
+margin: 0 auto;
+}
+
+
+#header {
+height: 100px;
+}
+#header h1 {
+font-size: 30px;
+font-weight: 100;
+letter-spacing: -3px;
+padding: 25px 0 0 0px;
+}
+#header h1 a {
+text-decoration: none;
+color: #E2e2e0;
+}
+#header h1 a:hover {
+text-decoration: none;
+color: #000;
+}
+#header h2 {
+color: #666;
+font-size: 17px;
+font-weight: 100;
+padding: 0 0 0 1px;
+}
+
+
+#menu {
+height: 30px;
+line-height: 30px;
+}
+#menu ul {
+padding-left: 2px;
+list-style-type: none;
+}
+#menu ul li {
+display: block;
+float: left;
+}
+#menu ul li a {
+color: #fff;
+padding: 0 20px 0 0;
+text-decoration: none;
+font-weight: 600;
+}
+#menu ul li a:hover {
+color: #fff;
+text-decoration: underline;
+}
+
+#content {
+margin: 20px 0;
+line-height: 17px;
+}
+
+.left {
+float: left; 
+width: 580px;
+font-size: 18px;
+text-align: justify;
+}
+
+.left_materias {
+float: left; 
+width: 340px;
+font-size: 18px;
+text-align: justify;
+}
+
+
+
+
+.left h2 {
+color: #B7271F;
+font-size: 14px;
+letter-spacing: -3px;
+font-weight: 100;
+padding : 10px 0 15px 0;
+}
+.left h2 a {
+color: #B7271F;
+}
+.left h2 a:hover {
+color: #333;
+}
+
+.right {
+margin-top: 10px;
+float: right;
+width: 160px;
+padding: 10px;
+background: #FFFFFF;
+border: 1px solid #990000;
+}
+
+
+.right_nuevo {
+margin-top: 200px;
+/*float: left;*/
+width: 160px;
+/*padding: 10px;*/
+background: #FFFFFF;
+border: 1px solid #990000;
+}
+
+
+.right_materias {
+margin-top: 10px;
+float: right;
+width: 400px;
+padding: 10px;
+background: #FFFFFF;
+border: 1px solid #990000;
+}
+
+
+.right_donaciones {
+margin-top: 50px;
+float: right;
+width: 120px;
+padding: 10px;
+background: #FFFFFF;
+/*border: 1px solid #990000;*/
+}
+
+.right_donaciones h2 {
+color: #B7271F;
+font-size: 14px;
+/*letter-spacing: -3px;*/
+font-weight: 120;
+padding : 10px 0 15px 0;
+}
+.right_donaciones h2 a {
+color: #B7271F;
+}
+.right_donaciones a:hover {
+color: #333;
+}
+
+
+
+.right h2 {
+font-size: 12px;
+color: #555;
+padding: 5px 0 2px 0;
+}
+.right ul {
+list-style-type: none;
+padding: 5px 0 10px 0;
+
+}
+.right ul li {
+
+}
+.right ul li a {
+display: block;
+border-bottom: px solid #999;
+color: #666;
+padding: 2px 10px;
+}
+.right ul li a:hover {
+color: #333;
+text-decoration: none;
+}
+
+.right_materias ul.lista {
+list-style-type: square;
+padding: 5px 0 10px 15px;
+
+
+}
+.right_materias ul li.lista {
+margin-top:15px;
+margin-left: 15px;
+
+}
+
+
+
+
+
+
+
+.right_materias ul.materias {
+list-style-type: none;
+padding: 5px 0 10px 15px;
+
+
+}
+.right_materias ul li.materias {
+list-style-image: url(http://biblioteca.cchs.csic.es/img/raton_innova.jpg);
+margin-top:15px;
+margin-left: 15px;
+
+}
+.right_materias ul li.materias a {
+display: block;
+border-bottom: px solid #999;
+color: #666;
+padding: 2px 2px 0px 2px;
+
+
+}
+.right_materias ul li.materias a:hover {
+color: #333;
+text-decoration: none;
+}
+
+
+
+
+.right_materias ul.materias_anteriores {
+list-style-type: none;
+padding: 5px 0 10px 15px;
+
+
+}
+.right_materias ul li.materias_anteriores {
+list-style-image: url(http://biblioteca.cchs.csic.es/img/hojas1.jpg);
+margin-top:15px;
+margin-left: 15px;
+
+
+
+
+}
+.right_materias ul li.materias_anteriores a {
+display: block;
+border-bottom: px solid #999;
+color: #666;
+padding: 2px 2px 0px 2px;
+
+
+}
+.right_materias ul li.materias_anteriores a:hover {
+color: #333;
+text-decoration: none;
+}
+
+
+
+
+.right_materias p.busqueda {
+color: #FF9900;
+
+}
+
+.right_materias p.suscribirse {
+	color: #990000;
+}
+
+.right_materias br.tamano {
+
+line-height:5px;}
+
+
+
+.right_materias img.impr {
+	left: 350px;
+	position: relative;
+}
+
+.right_materias img.rss {
+	margin-top: 8px;
+	position: relative;
+}
+
+
+.right_materias a {
+color: #666;
+}
+
+.right_materias a:hover {
+color: #333;
+text-decoration:underline;
+
+}
+
+.right_materias a:visited {
+color: #333;
+}
+
+
+
+
+#footer {
+	font-size: 12px;
+	/*color: #666666;*/
+	text-align: center;
+	padding: 5px 0 10px 0;
+	margin-top: 50px;
+	border-top: 10px solid #ddd;
+}
+#footer a { 
+color: #990000;
+}
+#footer a:hover {
+color: #333; 
+text-decoration: underline; 
+}
+
+#right_materias a {
+
+border:0;
+}

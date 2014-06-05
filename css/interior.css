@@ -1,0 +1,977 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+	background: #F5F5F5; 
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #666;
+	text-align:justify;
+
+}
+
+#contenedor{
+	position:absolute;
+	left:10%;
+	top:0;
+	width:800px;
+	z-index:2;
+	top: 10px;
+	/*border: 1px solid #ccc;*/
+/*	background:#fff;*/
+}
+
+/********************cabecera***************************/
+
+#cabecera{
+	float:left;
+
+	height:100px;
+	width: 100%;
+margin-top: 0px;
+	padding-bottom: 10px;
+	background:url(http://biblioteca.cchs.csic.es/img/cabecera_imagen2.jpg) no-repeat;
+/*border: 1px solid #000;*/
+	background-position: right;
+	font-size:50px;
+	color:#990000;/*color del texto biblioteca */
+
+
+/*	clear:both;*/
+	/*background-color: #95050F;*/
+}
+
+
+#cabecera_en{
+	float:left;
+
+	height:100px;
+	width: 100%;
+margin-top: 0px;
+	padding-bottom: 10px;
+	background:url(http://biblioteca.cchs.csic.es/img/cabecera_web_en.jpg) no-repeat;
+/*border: 1px solid #000;*/
+	background-position: right;
+	font-size:50px;
+	color:#990000;/*color del texto biblioteca */
+
+
+/*	clear:both;*/
+	/*background-color: #95050F;*/
+}
+#cab_buscador{
+	/*position:absolute;*/
+	float:right;
+	right:0px;
+	width:35%;
+	height:50px;
+	/*border:1px solid #000;*/
+	margin-top: 25px;
+	margin-right: 15px;
+	
+}
+
+
+
+#cab_buscador .texto_web{
+
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #fff;
+	text-align:right;
+	padding-left:150px;
+	background-color: #95050F;
+	
+	
+}
+
+#cab_buscador .caja{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	float: left;
+	margin-left:20px;
+	background: #fefdf4;
+	border: 1px solid #95050F;
+}
+
+
+#cab_buscador input{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	float: left;
+	margin-left:5px;
+	/*background: #fefdf4;*/
+	/*border: 1px solid #95050F;*/
+}
+
+
+#cabecera h1 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1em;
+	color:#F2E9EA;
+		background-color: #95050F;
+	padding-left:30px;
+	text-decoration:none;
+	font-weight:normal;
+
+}
+
+
+#cabecera a {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 2em;
+	color:#F2E9EA;
+	padding-left:30px;
+	text-decoration:none;
+		background-color: #95050F;
+
+}
+
+/***********************************fin cabecera****************************************/
+
+/*********************menu superior*******************************************************/
+
+#chat{ 
+
+ float: right;
+ height:40px;
+ width:8%; 
+ position: relative;
+ margin-top:35px;
+ background-image: url(http://biblioteca.cchs.csic.es/img/chat1.gif);
+ background-repeat:no-repeat;
+
+ 
+} 
+
+
+
+#visita_virtual{ 
+
+ float: left;
+ margin-left:-30px;
+ height:40px;
+padding-right:45px;
+ position: relative;
+ margin-top:35px;
+ background-image: url(http://biblioteca.cchs.csic.es/img/visita_virtual.gif);
+ background-repeat:no-repeat;
+
+ 
+} 
+
+
+
+
+
+#menu_sup{
+margin-top: 220px;
+float:left;
+width:90%;
+/*border: 1px solid #000;*/
+/*margin-left: 100px;*/
+margin-top:2px;
+background: #F5F5F5; 
+clear:both;
+text-align:left;
+padding-bottom:30px;
+
+/*margin-top:2px;
+padding-top:5px;*/
+}
+
+#menu_sup_en{
+margin-top: 220px;
+float:left;
+width:100%;
+/*border: 1px solid #000;*/
+/*margin-left: 100px;*/
+margin-top:2px;
+background: #F5F5F5; 
+clear:both;
+text-align:right;
+padding-bottom:15px;
+
+/*margin-top:2px;
+padding-top:5px;*/
+}
+
+#menu_sup .texto {
+
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #040a0e;
+	text-align:center;
+
+
+}
+
+#menu_sup a {
+
+    font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	text-decoration:none;
+
+}
+
+
+#menu_sup a:hover {
+	background-color: #FFAD33;
+	color:#fff;
+}
+
+#menu_sup_en a {
+
+    font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000;
+	text-decoration:none;
+
+}
+
+
+#menu_sup_en a:hover {
+	background-color: #FFAD33;
+	color:#fff;
+}
+
+
+
+
+
+/*********************menu superior*******************************************************/
+
+
+/**********************camino de migas********************************************/
+
+
+#camino_migas{
+
+float:left;
+width:100%;
+/*border: 1px solid #000;*/
+/*margin-left: 100px;*/
+margin-top:-15px;
+margin-left:10px;
+background:#F5F5F5;
+clear:both;
+text-align:left;
+height:20px;
+/*border-bottom: 1px dashed #ccc;*/
+margin-bottom:10px;
+
+/*margin-top:2px;
+padding-top:5px;*/
+}
+
+
+#camino_migas .texto {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #949494;
+	text-align:left;
+
+}
+
+#camino_migas a {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	text-decoration:none;
+}
+
+#camino_migas a:hover {
+text-decoration:underline;
+color: #E18700;
+}
+
+
+/*************************fin camino de migas******************************************/
+
+/*********************centro*******************************************************/
+
+#centro{
+
+width: 800px;
+
+background: #F5F5F5; 
+position:static;
+/*border: 1px solid #000000;*/
+
+
+/*margin-top:2px;
+padding-top:5px;*/
+}
+
+
+
+
+
+#contenido{
+float:left;
+width: 580px;
+background:#F5F5F5;
+/*border: 1px solid #ff9900;*/
+
+
+
+}
+
+#linea_sup{
+width: 580px;
+margin-right:5px;
+margin-left: 0px;
+margin-top:1px;
+background:url(http://biblioteca.cchs.csic.es/img/linea_sup2.gif) no-repeat;
+clear:both;
+text-align:right;
+
+/*margin-top:2px;
+padding-top:5px;*/
+}
+
+
+
+
+#contenido_ampliado{
+float:left;
+width: 798px;
+background:#F5F5F5;
+
+}
+
+
+#videos_uno {
+float:left;
+width: 210px;
+padding-left: 5px;
+padding-right:5px;
+
+position:relative;
+}
+
+#videos_dos {
+float:left;
+width: 210px;
+padding-left: 5px;
+padding-right:5px;
+
+position:relative;
+	}
+
+#videos_tres {
+float:left;
+width: 210px;
+padding-left: 5px;
+padding-right:5px;
+
+position:relative;
+	}
+
+
+#linea_sup_ampliada{
+width: 795px;
+margin-right:5px;
+margin-left: 1px;
+margin-top:0px;
+background:url(http://biblioteca.cchs.csic.es/img/linea_sup.gif) no-repeat;
+clear:both;
+text-align:right;
+
+/*margin-top:2px;
+padding-top:5px;*/
+}
+
+
+
+
+#derecha {float:right; width:200px; margin-left:10px; background: #F5F5F5; border: 1px dotted #ccc; padding-left:4px; padding-right:4px;}
+#derecha .texto {font-size: 0.8em;}
+
+/*segunda caja para el menu de la derecha*/
+#derecha_dos {float:right; width:200px; margin-left:10px; margin-top:10px; background: #F5F5F5; border: 1px dotted #ccc; padding-left:4px; padding-right:4px;}
+
+/*caja sin bordes para la pagina de reprografia*/
+#derecha_tres {float:right; width:200px; margin-left:10px; margin-top:10px; background: #F5F5F5; /*border: 1px dotted #ccc;*/ padding-left:4px; padding-right:4px;}
+
+/*************************sombreado*****************************/
+
+.blur{ 
+   background-color: #ccc; /*shadow color*/ 
+   color: inherit; 
+   margin-left: 5px; 
+   margin-top: 1px; 
+   margin-right: -1px; 
+} 
+
+.blur_ampliado{ 
+   background-color: #ccc; /*shadow color*/ 
+   color: inherit; 
+   margin-left: 5px; 
+   margin-top: -1px; 
+   margin-right: -1px; 
+} 
+
+.shadow, 
+.content{
+	position: relative;
+	bottom: 2px;
+	right: 2px;
+} 
+
+.shadow{ 
+   background-color: #FFB03A; /*shadow color*/ 
+   color: inherit; 
+} 
+
+.content{ 
+   background-color: #fff; /*background color of content*/ 
+   color: #000; /*text color of content*/ /*sonia*/
+   border-left: 1px solid #FF9933;/*border left color*/
+   padding: .7em 4ex .2em; 
+}
+
+
+
+.content_izq_ampliado
+{
+float:left;
+width:450px;
+
+}
+
+.content_izq_ampliado_uno
+{
+float:left;
+width:530px;
+
+}
+
+.content_masizq_ampliado {
+
+text-align: center;
+vertical-align: middle;
+margin-top: -210px;
+margin-left: -170px;
+position: absolute;
+top: 50%;
+left: 50%;
+width: 250px;
+height: 350px;
+
+}
+
+
+.content_der_ampliado {
+
+width: 250px;
+float:right;
+padding-left:8px;
+padding-right:8px;
+padding-top:8px;
+padding-bottom:8px;
+
+}
+
+.content_der_ampliado_uno {
+
+width: 170px;
+float:right;
+margin-top:80px;
+padding-left:8px;
+padding-right:8px;
+padding-top:0px;
+padding-bottom:8px;
+border: 1px solid #EBE8DB;
+background: #FAF9F4;
+}
+
+.content_tabla_ampliado
+{
+float:left;
+width:800px;
+
+}
+
+}
+
+
+#centro .h1
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1.4em;
+	color: #990000;
+	text-align:left;
+}
+
+.h1 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1.4em;
+	color: #990000;
+	text-align:left;
+}
+
+
+.intermedia_izq
+{
+float:left;
+width:auto;
+}
+
+.intermedia_der {
+
+width: 620px;
+float:right;
+background: #F5F5F5;
+padding-left:8px;
+padding-right:8px;
+padding-top:8px;
+padding-bottom:8px;
+border: 1px dotted #ccc;
+
+}
+
+div.clear {
+  clear: both;
+}
+
+
+/**************************/
+
+.imagen_biblio {
+
+  margin-left: 4px; 
+  padding-top:5px;
+  width: 744px;
+  height:189px;
+  background:url(http://biblioteca.cchs.csic.es/img/fondo_biblio.jpg) no-repeat;
+} 
+
+.catalogo {
+
+   margin-left: 5%; 
+   margin-top: 20px; 
+   padding-left: 15px;
+   padding-top: 8px;
+   width:667px;
+   height:139px;
+   border: 1px solid #ccc;
+   background:#fff;
+} 
+
+.input_catalogo{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 5px;
+	background: #fff;
+	border: 1px solid #999;
+	
+}
+
+.select_catalogo {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	width: 150px;
+	/*padding-top: 3px;*/
+	/*margin-left: 10px;
+	margin-right: 5px;*/
+	/*background: #fff;*/
+	border: 1px solid #999;
+
+}
+
+.imagen{
+	
+	float: right;
+	color: #fff;
+	margin: -22px 85px 5px 0px;
+	/*background: url(../img/lupa.gif) no-repeat;*/
+	
+}
+
+
+
+
+.catalogo_texto {
+
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #990000;
+	font-weight:bold;
+	text-align:center;
+}
+
+.buscar_texto {
+
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1.3em;
+	color: #999;
+	
+	text-align:center;
+}
+
+
+.casillas_texto {
+
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #990000;
+	text-align:center;
+}
+
+/*************************fin sombreado*****************/
+
+/*******************************MENU PESTAÑAS*************************/
+
+/*- Menu Tabs--------------------------- */
+
+    #tabs {
+      float:left;
+      width:100%;
+      /*background:#D4DAE7;*/
+      font-size:93%;
+      line-height:normal;
+	  margin-left:140px;
+    /* border-bottom:1px solid #333B66;*/
+		font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1em;
+
+
+      }
+    #tabs ul {
+
+          margin:0;
+          padding:0px 10px 0 50px;
+          list-style:none;
+		  text-align:justify;
+
+      }
+    #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs a {
+      float:left;
+      background:url("http://biblioteca.cchs.csic.es/img/tableft7_s.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+
+      }
+    #tabs a span {
+      float:left;
+      display:block;
+      background:url("http://biblioteca.cchs.csic.es/img/tabright7.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1em;
+	color:#FFF;
+      }
+	  
+    #tabs a .otras {
+      float:left;
+      display:block;
+      background:url("http://biblioteca.cchs.csic.es/img/tabright7.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 1em;
+	color:#666;
+      }	  
+	  
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#FFF;
+      }
+    #tabs a:hover {
+      background-position:0% -42px;
+      }
+    #tabs a:hover span {
+      background-position:100% -42px;
+      }
+
+      #tabs #current a {
+              background-position:0% -42px;
+      }
+      #tabs #current a span {
+              background-position:100% -42px;
+      }
+
+
+/**********************************FIN MENU PESTAÑAS*********************************/
+
+
+/*************************fin centro****************************************/
+
+
+
+/***********************pie******************************************/
+
+#pie{
+	float:left;
+	width: 100%;
+	
+	margin-left:5px;
+	margin-right:20px;
+	/*height:73px;*/
+
+}
+
+#pie a {
+	color: #000000;
+	text-decoration:none;
+}
+#pie a:hover {background: #ff9900; color:#fff;}
+
+#ministerio{ 
+float:left;
+   margin-left: -5px; 
+   margin-top: 5px; 
+   margin-right: 8px; 
+
+ 
+} 
+
+#direccion{ 
+float:left;
+   margin-left: 50px; 
+   margin-top: 10px; 
+   margin-right: 8px; 
+   font-family: Verdana, Helvetica, sans-serif;
+   font-size: 0.85em;
+   color: #990000;
+   text-align:center;
+
+} 
+#csic{ 
+float:right;
+color: #040a0e;
+font-size:11px;
+
+
+   margin-left: 4px; 
+   margin-top: 20px; 
+   margin-right: 10px; 
+
+} 
+/***********************fin pie**************************************/
+/****************************textos, enlaces, listas, etc.*********************/
+#centro .apartados {
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.85em;
+font-weight:bold;
+color: #990000;
+/*border-bottom: 1px solid #990000;*/
+margin-right: 3px;
+}
+
+
+
+#centro .apartados1 {
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1.25em;
+font-weight:bold;
+color: #990000;
+/*border-bottom: 1px solid #990000;*/
+margin-right: 3px;
+}
+
+
+#centro a.enlaces {
+	/*text-decoration:underline;*/
+text-decoration:none;
+	/*color: #F2570D;*/
+color:#E18700;
+}
+#centro a:hover.enlaces {
+/*text-decoration:underline;*/
+color:#666;
+background:#FFD08A;
+}
+
+
+
+#centro li
+{
+list-style-image:url(http://biblioteca.cchs.csic.es/img/list_cuadrado.gif);
+/*padding-top:-3px;*/
+
+line-height:18px;
+
+}
+
+
+.listado
+{
+list-style:disc;
+line-height:16px;
+font-size:11px;
+text-align:left;
+margin-right: 5px;
+margin-left: 18px;
+}
+
+.encabezados
+
+{
+font-size: .85em;
+font-weight:bold;
+}
+
+.encabezados_sub
+
+{
+font-size: .85em;
+padding-left:11px;
+/*font-weight:bold;*/
+}
+
+.encabezados_linea
+
+{
+font-size: .90em;
+font-weight:bold;
+/*text-decoration:underline;*/
+/*font-weight:bold;*/
+}
+
+.encabezados_sub_nar
+
+{
+font-size: .85em;
+padding-left:11px;
+
+color:#E18700;
+font-weight:bold;
+}
+
+.sub_listado {
+margin-left: 25px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:0.80em;
+}
+/*********************fin textos, enlaces, listas etc.**********************/
+
+
+/************************formularios*****************************/
+
+
+	.formulario{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #225538;
+	text-align:right;
+
+	
+	
+}
+
+
+	.boton{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-align:center;	
+}
+
+
+/********************formulario insercion********************************/
+
+form#registro{
+	margin:0;
+	padding:0;
+}
+
+form#registro {
+	margin:0;
+	padding:10px;
+}
+
+form#registro  p{
+	margin: 5px 10px 10px 10px;
+	clear: both;
+}
+
+form#registro  p .form label{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #669966;
+	float: left;
+	margin-bottom: 5px;
+	text-align: right;
+	padding-right: 10px;
+	
+}
+form#registro  p .campotexto{
+	font-size: .9em;
+	color: #000000;
+	float: left;
+	margin-bottom: 10px;
+	background: #F5F5F5;
+	border: 1px solid #999999;
+}
+
+form#registro  .campotexto_fecha{
+	font-size: 1em;
+	color: #999999;
+	/*width: 100px;*/
+	float: left;
+	margin-bottom: 10px;
+	margin-right:5px;
+	margin-left:10px;
+	background: #F5F5F5;
+	border: 1px solid #999999;}
+	
+
+
+form#registro  p textarea{
+
+	font-size: 1em;
+	color: #669966;
+	width: 500px;
+	float: left;
+	margin-bottom: 10px;
+	background: #e7efe7;
+	border: 1px solid #666666;
+}
+form#registro  p select{
+	font-size: .9em;
+	color: #000000;
+	width: 350px;
+	float: left;
+	margin-bottom: 10px;
+	background: #F5F5F5;
+	border: 1px solid #999999;
+}
+
+/*******************fin formulario insercion************************************/
+
+/***********************imagenes********************************************/
+
+img{border:0;}
+
+/************************fin imagenes**************************************/
+
+/******************************tablas**************************************/
+table {border:0px; font-size:0.8em;}
+
+table .archivos {font-size:1.2em;}
+/*td {border:1px solid  #F4F4F4; }*/
+
+/******************************fin tablas**************************************/

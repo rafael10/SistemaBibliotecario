@@ -1,0 +1,121 @@
+/* New in version 1.7+ */ 
+ #slider3 { 
+  width: 430px; 
+  height: 235Px; 
+  list-style: none; 
+ } 
+ /* images with caption */ 
+ #slider3 img { 
+  width: 100%; 
+  height: 100%; 
+ } 
+ /* position the panels so the captions appear correctly */ 
+ #slider3 .panel { position: relative; } 
+ /* captions */ 
+ #slider3 .caption-top, #slider3 .caption-right, 
+ #slider3 .caption-bottom, #slider3 .caption-left { 
+  background: #000;
+  color: #fff; 
+  padding: 10px; 
+  margin: 0; 
+  position: relative; 
+  z-index: 10; 
+  opacity: .8; 
+  filter: alpha(opacity=80); 
+ } 
+ 
+  
+ 
+ /* Top caption - padding is included in the width (480px here, 500px in the script), same for height */ 
+ #slider3 .caption-top { 
+  left: 0; 
+  top: 0; 
+  width: 480px; 
+  height: 20px; 
+ } 
+ /* Right caption - padding is included in the width (130px here, 150px in the script), same for height */ 
+ #slider3 .caption-right { 
+  right: 0; 
+  bottom: 0; 
+  width: 130px; 
+  height: 180px; 
+ } 
+ /* Bottom caption - padding is included in the width (480px here, 500px in the script), same for height */ 
+ #slider3 .caption-bottom { 
+  left: 0; 
+  bottom: 0; 
+  width: 480px; 
+  height: 30px; 
+ } 
+ /* Left caption - padding is included in the width (130px here, 150px in the script), same for height */ 
+ #slider3 .caption-left { 
+  left: 0; 
+  bottom: 0; 
+  width: 130px; 
+  height: 180px; 
+ } 
+ /* Caption close button */ 
+ .caption-top .close, .caption-right .close, 
+ .caption-bottom .close, .caption-left .close { 
+  font-size: 80%; 
+  cursor: pointer; 
+  float: right; 
+  display: inline-block; 
+ }
+
+
+/*PARA cambiar el pie de cada panel a mano*/
+
+#slider3 .caption-top, #slider3 .caption-right, 
+ 
+ 
+ #slider3 .caption-bottom_nuevo, #slider3 .caption-left { 
+  background: #efecec;
+  color: #d50204; 
+  padding: 10px; 
+  font-weight:bold;
+  margin: 0; 
+  position: relative; 
+  z-index: 10; 
+  opacity: .8; 
+  filter: alpha(opacity=80); 
+ } 
+ 
+ 
+ /* Top caption - padding is included in the width (480px here, 500px in the script), same for height */ 
+ #slider3 .caption-top { 
+  left: 0; 
+  top: 0; 
+  width: 480px; 
+  height: 20px; 
+ } 
+ /* Right caption - padding is included in the width (130px here, 150px in the script), same for height */ 
+ #slider3 .caption-right { 
+  right: 0; 
+  bottom: 0; 
+  width: 130px; 
+  height: 180px; 
+ } 
+ /* Bottom caption - padding is included in the width (480px here, 500px in the script), same for height */ 
+ #slider3 .caption-bottom_nuevo{ 
+  left: 0; 
+  bottom: 0; 
+  width: 480px; 
+  height: 30px; 
+ } 
+ /* Left caption - padding is included in the width (130px here, 150px in the script), same for height */ 
+ #slider3 .caption-left { 
+  left: 0; 
+  bottom: 0; 
+  width: 130px; 
+  height: 180px; 
+ } 
+ /* Caption close button */ 
+ .caption-top .close, .caption-right .close, 
+ .caption-bottom_nuevo .close, .caption-left .close { 
+  font-size: 80%; 
+  cursor: pointer; 
+  float: right; 
+  display: inline-block; 
+ }
+
