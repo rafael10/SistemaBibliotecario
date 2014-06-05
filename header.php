@@ -247,7 +247,7 @@ if ($.browser.msie){
 <!--<a href=""target="_blank" Title="Acceso a Catálogos Biblioteca" >Catálogos-->
 </div><!-- fin cabecera sup-->
 <div id="biblioteca">
-<a href="index.html">Biblioteca Central de Centro Am&eacute;rica</a>
+<a href="index.php">Biblioteca Central de Centro Am&eacute;rica</a>
 </div><!--fin biblioteca-->
 <div id="menu_sup">
     <a href="" title="Servicios">Servicios</a>
