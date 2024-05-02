@@ -17,6 +17,7 @@
 
 <!-- jQuery (required) & jQuery UI (for this demo only) -->
 <!-- jQuery (required) & jQuery UI (for this demo only) -->
+<!-- jQuery (required) & jQuery UI (for this demo only) -->
 
 	<link rel="stylesheet" href="ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
 	<script src="ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
