@@ -1,6 +1,6 @@
 <?php
 /**
- * @author Rafael López
+ * @author Rafael Lï¿½pez
  * @copyright 2014
  */
 ?>
@@ -16,6 +16,8 @@
     <script type="text/javascript" src="jquery-1.3.2.js"></script>
 
 <!-- jQuery (required) & jQuery UI (for this demo only) -->
+<!-- jQuery (required) & jQuery UI (for this demo only) -->
+
 	<link rel="stylesheet" href="ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
 	<script src="ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
@@ -66,7 +68,7 @@
 		});
 	</script>
 
-<!--código para la biblioteca -->
+<!--cï¿½digo para la biblioteca -->
 <script type="text/javascript">
 
         //<![CDATA[
@@ -244,7 +246,7 @@ if ($.browser.msie){
 
 <!-- fin pestanas laterales-->
 <div id="cabecera_sup">
-<!--<a href=""target="_blank" Title="Acceso a Catálogos Biblioteca" >Catálogos-->
+<!--<a href=""target="_blank" Title="Acceso a Catï¿½logos Biblioteca" >Catï¿½logos-->
 </div><!-- fin cabecera sup-->
 <div id="biblioteca">
 <a href="index.php">Biblioteca Central de Centro Am&eacute;rica</a>
